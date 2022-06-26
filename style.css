@@ -124,16 +124,21 @@ div.button{
 
 .flexbox{
     display: flex;
+    
 }    
     
  .flexbox div{
     flex-direction: row;   
-    height: 50px;
+    flex-wrap: nowrap;
     width: 5px;
+    height: 100px;
     border: 2px solid blue;
-    border-radius: 10px;
-    flex: 1 1 0%;
-    justify-content: space-between;
+    border-radius: 15px;
+    flex: 1 ; 
+    margin-right: 100px;
+    margin-left: 100px;
     
-   
+    
+    
+     
 }

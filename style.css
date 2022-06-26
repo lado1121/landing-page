@@ -1,0 +1,61 @@
+/* header start */
+header.start{
+    height: 550px;
+    width: auto;
+    background-color: #1f2937;
+    
+    
+
+
+}
+
+.header-logo{
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #f9faf8;
+    display: inline-block;
+    margin-left: 220px;
+    margin-top: 20px;
+    font-style: bold;
+
+    
+    
+   
+}
+.link-one{
+    font-size: 18px;
+    color: #e5e7eb;
+    display: inline-block;
+    margin-left: 500px;
+    vertical-align: middle;
+    
+    
+
+    
+}
+.link-two{
+    font-size: 18px;
+    color: #e5e7eb;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 30px;
+    
+
+}
+.link-three{
+    font-size: 18px;
+    color: #e5e7eb;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 30px;
+    
+
+}
+.title{
+    font-size: 48px;
+    font-style: bold;
+    color: #f9faf8;
+    margin-left: 220px;
+    margin-top: 120px;
+}
+

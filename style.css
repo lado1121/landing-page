@@ -15,7 +15,7 @@ header.start{
     font-family: 'Times New Roman', Times, serif;
     color: #f9faf8;
     display: inline-block;
-    margin-left: 220px;
+    margin-left: 150px;
     margin-top: 20px;
     
 
@@ -55,9 +55,11 @@ header.start{
 .title{
     font-size: 48px;
     font-weight: bolder;
+    width: 300px;
     color:  #f9faf8; 
-    margin-left: 220px;
+    margin-left: 150px;
     margin-top: 120px;
+    vertical-align: top;
     
     
 }
@@ -65,19 +67,73 @@ header.start{
     color: #e5e7eb;
     font-size: 18px;
     font-weight: lighter;
-    margin-left: 220px;
+    margin-left: 150px;
     margin-top: 10px;
-    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+    width: 300px;
+    
+    
     
 }
-div.flexbox{
-    display: flex;
+div.box{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 150px;
+    margin-top: -80px;
     height: 200px;
-    width: 250px;
-    background-color: lightgray;
-    margin-left: 900px;
-    margin-bottom: 100px;
+    width: 500px;
+    background-color: grey;
+    
+    
     
 }
 
+div.text{
+    color: #e5e7eb;
+    font-size: 18px;
+    padding-top: 80px;
+    padding-left: 110px;
+    
 
+}
+
+div.button{
+    background-color: #3882f6;
+    height: 35px;
+    width: 110px;
+    padding-left: 30px;
+    padding-top: 7px;
+    margin-left: 150px;
+    margin-top: -40px;
+    border-radius: 10px;
+    color: #e5e7eb;
+    font-weight: bolder;
+    font-size: 18px;
+    
+}
+
+/* section 2 start */
+.title-2{
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bolder;
+    margin-left: 450px;
+    margin-top: 30px;
+}
+
+.flexbox{
+    display: flex;
+}    
+    
+ .flexbox div{
+    flex-direction: row;   
+    height: 50px;
+    width: 5px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    flex: 1 1 0%;
+    justify-content: space-between;
+    
+   
+}

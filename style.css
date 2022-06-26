@@ -121,24 +121,132 @@ div.button{
     margin-left: 450px;
     margin-top: 30px;
 }
-
-.flexbox{
-    display: flex;
-    
-}    
-    
- .flexbox div{
-    flex-direction: row;   
-    flex-wrap: nowrap;
-    width: 5px;
-    height: 100px;
+/* boxes start */
+.box-one{
+    height: 150px;
+    width: 150px;
     border: 2px solid blue;
     border-radius: 15px;
-    flex: 1 ; 
-    margin-right: 100px;
-    margin-left: 100px;
+    margin-left: 300px;
+    display: inline-block;
+}
+.box-two{
+    height: 150px;
+    width: 150px;
+    border: 2px solid blue;
+    border-radius: 15px;
+    display: inline-block;
+    margin-left: 50px;
+}
+.box-three{
+    height: 150px;
+    width: 150px;
+    border: 2px solid blue;
+    border-radius: 15px;
+    display: inline-block;
+    margin-left: 50px;
+}
+.box-four{
+    height: 150px;
+    width: 150px;
+    border: 2px solid blue;
+    border-radius: 15px;
+    display: inline-block;
+    margin-left: 50px;
+}
+.boxone-text{
+    color: gray;
+    font-size: 18px;
+    margin-left: 300px;
+    margin-top: 2px;
+    width: 150px;
+}
+.boxtwo-text{
+    color: gray;
+    font-size: 18px;
+    margin-left: 502px;
+    margin-top: -55px;
+    width: 150px;
+}
+.boxthree-text{
+    color: gray;
+    font-size: 18px;
+    margin-left: 710px;
+    margin-top: -55px;
+    width: 150px;
+}
+.boxfour-text{
+    color: gray;
+    font-size: 18px;
+    margin-left: 913px;
+    margin-top: -55px;
+    width: 150px;
+}
+/* end boxes */
+/* new section start */
+section.section-three{
+    background-color: #D5DBDB;
+    margin-top: 100px;
+    height: 300px;
+    width: auto;
+}
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    padding: 100px;
+}
+.endquote{
+    color: black;
+    font-size: 18px;
+    font-weight: bolder;
+    margin-left: 350px;
+    margin-top: -100px;
+}
+/* new section start */
+section.bluebox{
+    background-color: #3882f6;
+    height: 100px;
+    width: 70%;
+    margin-top: 100px;
+    margin-left: 220px;
     
-    
-    
-     
+}
+.bluebox-header{
+    color: #e5e7eb;
+    font-size: 24px;
+    font-weight: bolder;
+    padding-top: 30px;
+    padding-left: 100px;
+}
+.bluebox-text{
+    color: #e5e7eb;
+    font-weight: lighter;
+    padding-left: 100px;
+}
+.button-two  {
+    background-color: #3882f6;
+    height: 35px;
+    width: 110px;
+    color: #e5e7eb;
+    margin-left: 700px;
+    margin-top: -40px;
+    border: 2px solid #e5e7eb;
+    border-radius: 10px;
+    padding-top: 4px;
+    padding-left: 30px;
+}
+footer.end{
+    background-color: #1f2937;
+    height: 70px;
+    width: auto;
+    margin-top: 100px;
+}
+.footer-text{
+    color: #e5e7eb;
+    font-weight: bolder;
+    font-style: oblique;
+    padding-top: 30px;
+    padding-left: 525px;
 }

@@ -1,15 +1,15 @@
 /* header start */
-header.start{
+header.start {
     height: 550px;
     width: auto;
     background-color: #1f2937;
-    
-    
+
+
 
 
 }
 
-.header-logo{
+.header-logo {
     font-size: 24px;
     font-weight: bolder;
     font-family: 'Times New Roman', Times, serif;
@@ -17,53 +17,58 @@ header.start{
     display: inline-block;
     margin-left: 150px;
     margin-top: 20px;
-    
 
-    
-    
-   
+
+
+
+
 }
-.link-one{
+
+.link-one {
     font-size: 18px;
     color: #e5e7eb;
     display: inline-block;
     margin-left: 500px;
     vertical-align: middle;
-    
-    
 
-    
+
+
+
 }
-.link-two{
+
+.link-two {
     font-size: 18px;
     color: #e5e7eb;
     display: inline-block;
     vertical-align: middle;
     margin-left: 30px;
-    
+
 
 }
-.link-three{
+
+.link-three {
     font-size: 18px;
     color: #e5e7eb;
     display: inline-block;
     vertical-align: middle;
     margin-left: 30px;
-    
+
 
 }
-.title{
+
+.title {
     font-size: 48px;
     font-weight: bolder;
     width: 300px;
-    color:  #f9faf8; 
+    color: #f9faf8;
     margin-left: 150px;
     margin-top: 120px;
     vertical-align: top;
-    
-    
+
+
 }
-.link-text{
+
+.link-text {
     color: #e5e7eb;
     font-size: 18px;
     font-weight: lighter;
@@ -72,11 +77,12 @@ header.start{
     display: inline-block;
     vertical-align: top;
     width: 300px;
-    
-    
-    
+
+
+
 }
-div.box{
+
+div.box {
     display: inline-block;
     vertical-align: top;
     margin-left: 150px;
@@ -84,21 +90,21 @@ div.box{
     height: 200px;
     width: 500px;
     background-color: grey;
-    
-    
-    
+
+
+
 }
 
-div.text{
+div.text {
     color: #e5e7eb;
     font-size: 18px;
     padding-top: 80px;
     padding-left: 110px;
-    
+
 
 }
 
-div.button{
+div.button {
     background-color: #3882f6;
     height: 35px;
     width: 110px;
@@ -110,19 +116,20 @@ div.button{
     color: #e5e7eb;
     font-weight: bolder;
     font-size: 18px;
-    
+
 }
 
 /* section 2 start */
-.title-2{
+.title-2 {
     color: #1f2937;
     font-size: 36px;
     font-weight: bolder;
     margin-left: 450px;
     margin-top: 30px;
 }
+
 /* boxes start */
-.box-one{
+.box-one {
     height: 150px;
     width: 150px;
     border: 2px solid blue;
@@ -130,7 +137,8 @@ div.button{
     margin-left: 300px;
     display: inline-block;
 }
-.box-two{
+
+.box-two {
     height: 150px;
     width: 150px;
     border: 2px solid blue;
@@ -138,7 +146,8 @@ div.button{
     display: inline-block;
     margin-left: 50px;
 }
-.box-three{
+
+.box-three {
     height: 150px;
     width: 150px;
     border: 2px solid blue;
@@ -146,7 +155,8 @@ div.button{
     display: inline-block;
     margin-left: 50px;
 }
-.box-four{
+
+.box-four {
     height: 150px;
     width: 150px;
     border: 2px solid blue;
@@ -154,78 +164,89 @@ div.button{
     display: inline-block;
     margin-left: 50px;
 }
-.boxone-text{
+
+.boxone-text {
     color: gray;
     font-size: 18px;
     margin-left: 300px;
     margin-top: 2px;
     width: 150px;
 }
-.boxtwo-text{
+
+.boxtwo-text {
     color: gray;
     font-size: 18px;
     margin-left: 502px;
     margin-top: -55px;
     width: 150px;
 }
-.boxthree-text{
+
+.boxthree-text {
     color: gray;
     font-size: 18px;
     margin-left: 710px;
     margin-top: -55px;
     width: 150px;
 }
-.boxfour-text{
+
+.boxfour-text {
     color: gray;
     font-size: 18px;
     margin-left: 913px;
     margin-top: -55px;
     width: 150px;
 }
+
 /* end boxes */
 /* new section start */
-section.section-three{
+section.section-three {
     background-color: #D5DBDB;
     margin-top: 100px;
     height: 300px;
     width: auto;
 }
-.quote{
+
+.quote {
     font-size: 36px;
     font-style: italic;
     font-weight: lighter;
     color: #1f2937;
     padding: 100px;
 }
-.endquote{
+
+.endquote {
     color: black;
     font-size: 18px;
     font-weight: bolder;
     margin-left: 350px;
     margin-top: -100px;
 }
+
 /* new section start */
-section.bluebox{
+section.bluebox {
     background-color: #3882f6;
     height: 100px;
     width: 70%;
     margin-top: 100px;
     margin-left: 220px;
-    
+
 }
-.bluebox-header{
+
+.bluebox-header {
     color: #e5e7eb;
     font-size: 24px;
     font-weight: bolder;
     padding-top: 30px;
     padding-left: 100px;
 }
-.bluebox-text{
+
+.bluebox-text {
     color: #e5e7eb;
     font-weight: lighter;
     padding-left: 100px;
 }
-.button-two  {
+
+.button-two {
     background-color: #3882f6;
     height: 35px;
     width: 110px;
@@ -237,16 +258,44 @@ section.bluebox{
     padding-top: 4px;
     padding-left: 30px;
 }
-footer.end{
+
+footer.end {
     background-color: #1f2937;
     height: 70px;
     width: auto;
     margin-top: 100px;
 }
-.footer-text{
+
+.footer-text {
     color: #e5e7eb;
     font-weight: bolder;
     font-style: oblique;
     padding-top: 30px;
     padding-left: 525px;
+}
+
+.box {
+    background: url(./download.jpg);
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.box-one {
+    background: url(./111.jpg);
+    background-size: cover;
+}
+
+.box-two {
+    background: url(./downloaad.jpg);
+    background-size: cover;
+}
+
+.box-three {
+    background: url(./aaa.jpg);
+    background-size: cover;
+}
+
+.box-four {
+    background: url(./images.jpg);
+    background-size: cover;
 }

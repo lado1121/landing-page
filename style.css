@@ -8,8 +8,16 @@ header.start {
 
 
 }
+.logo{
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    margin-left: 150px;
+    margin-top: 20px;
+}
 
 .header-logo {
+    
     font-size: 24px;
     font-weight: bolder;
     font-family: 'Times New Roman', Times, serif;
@@ -275,27 +283,25 @@ footer.end {
 }
 
 .box {
-    background: url(./download.jpg);
-    background-size: cover;
-    border-radius: 10px;
+    )
 }
+
 
 .box-one {
-    background: url(./111.jpg);
-    background-size: cover;
-}
+    
 
 .box-two {
-    background: url(./downloaad.jpg);
-    background-size: cover;
+   
 }
 
 .box-three {
-    background: url(./aaa.jpg);
-    background-size: cover;
-}
+ 
 
 .box-four {
-    background: url(./images.jpg);
-    background-size: cover;
+   
+}
+
+img.logo{
+    height: 20px;
+    width: 20px;
 }
